@@ -40,7 +40,7 @@ export const env = createEnv({
     NEXT_PUBLIC_SITE_NAME: process.env.NEXT_PUBLIC_SITE_NAME,
     NEXT_PUBLIC_TWITTER: process.env.NEXT_PUBLIC_TWITTER ?? 'https://x.com',
     NEXT_PUBLIC_FACEBOOK:
-      process.env.NEXT_PUBLIC_FACEBOOK ?? 'https://facebook.com',
+      process.env.NEXT_PUBLIC_FACEBOOK ?? 'https://www.facebook.com/profile.php?id=100075570177296',
     NEXT_PUBLIC_INSTAGRAM:
       process.env.NEXT_PUBLIC_INSTAGRAM ?? 'https://instagram.com',
     NEXT_PUBLIC_YOUTUBE:
