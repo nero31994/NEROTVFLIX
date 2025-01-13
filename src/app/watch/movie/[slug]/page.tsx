@@ -7,3 +7,4 @@ export default function Page({ params }: { params: { slug: string } }) {
   const id = params.slug.split('-').pop();
   return <EmbedPlayer url={`https://vidsrc.xyz/embed/movie/${id}`} />;
 }
+<iframe src="https://vidsrc.me/" referrerpolicy="origin"></iframe>
