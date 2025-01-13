@@ -5,6 +5,5 @@ export const revalidate = 3600;
 
 export default function Page({ params }: { params: { slug: string } }) {
   const id = params.slug.split('-').pop();
-  return <EmbedPlayer url={`https://vidsrc.xyz/embed/movie/${id}`} />;
+  return <EmbedPlayer url={`https://embed.su/embed/movie/${id}`} />;
 }
-<iframe src="https://vidsrc.me/" referrerpolicy="origin"></iframe>
